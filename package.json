@@ -1,0 +1,15 @@
+{
+  "name": "fintrack",
+  "version": "1.0.0",
+  "description": "FinTrack – Personal Finance & Monthly Budget Tracker",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
